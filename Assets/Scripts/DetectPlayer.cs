@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DetectPlayer : MonoBehaviour {
 
-	internal bool playerInRange;
+	public static bool playerInRange;
 
 	void Start () {
 

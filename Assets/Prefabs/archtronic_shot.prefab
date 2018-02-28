@@ -174,8 +174,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 2
-        time: 0.012084961
-        value: 0.31372833
+        time: 0
+        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -265,9 +265,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7ab2886c442d43ecaa66cb99ccda704, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosiveForce: 5
-  explosionRadius: 1
-  explosion: {fileID: 100002, guid: fae5d333f43a55744ab0c44fecefdcae, type: 2}
+  explosiveForce: 2
+  explosionRadius: 2
+  explosion: {fileID: 100010, guid: 031d08f52af1daa4f929b85221519426, type: 2}
   explodeNoise: {fileID: 8300000, guid: 76abf666513d04dcd8005b2df9909376, type: 3}
 --- !u!135 &135097953747902876
 SphereCollider:
